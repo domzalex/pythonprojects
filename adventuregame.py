@@ -1,12 +1,3 @@
-import turtle
-
-wn = turtle.Screen()
-wn.title('Adventuer Game')
-wn.bgcolor('black')
-wn.setup(width=800, height=600)
-wn.tracer(0)
-
-
 player_name = input('What is your name? ')
 print('-\nHello, ' + player_name + '. You see two doors in front of you. Red and blue.')
 
